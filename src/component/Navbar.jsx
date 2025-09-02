@@ -46,7 +46,7 @@ const Navbar = () => {
                 {/* mobile menu*/}
                 {isOpen && 
                 ( <ul
-                    className={`w-full h-screen flex flex-col justify-center items-center space-y-4 md:hidden absolute top-16 
+                    className={`w-full h-screen bg-white flex flex-col justify-center items-center space-y-4 md:hidden absolute top-16 
                         transition-all duration-500 ease-in-out
                         ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5 pointer-events-none"}
                     `}
