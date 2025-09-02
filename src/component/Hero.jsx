@@ -31,7 +31,7 @@ const Hero = () => {
                     </h1>
 
                     <p 
-                        className="text-center md:text-left text-xs md:text-lg tracking-wider font-semibold"
+                        className="text-center md:text-left text-xs md:text-lg tracking-wider leading-snug font-semibold"
                         data-aos="fade-right"
                     >
                         With Our Commitment excellence dedication customer satisfaction ,<br className="hidden md:block"/>
