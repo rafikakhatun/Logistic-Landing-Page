@@ -17,12 +17,12 @@ const Navbar = () => {
                     {/* desktop menu*/}
                     <ul className="hidden space-x-8 md:flex" data-aos="fade-left">
                         <li className="text-orange-600 active:text-orange-500 underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">HOME</a></li>
-                        <li className="text-indigo-900 cursor-pointer"  data-aos="fade-down"><a href="#">ABOUT US</a></li>
-                        <li className="text-indigo-900 cursor-pointer"  data-aos="fade-down"><a href="#">SERVICE</a></li>
-                        <li className="text-indigo-900 cursor-pointer"  data-aos="fade-down"><a href="#">PAGES</a></li>
-                        <li className="text-indigo-900 cursor-pointer"  data-aos="fade-down"><a href="#">CONTACT</a></li>
+                        <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">ABOUT US</a></li>
+                        <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">SERVICE</a></li>
+                        <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">PAGES</a></li>
+                        <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">CONTACT</a></li>
                     </ul>
-
+ 
                     {/* desktop traking button*/}
                     <button className="px-6 py-2 text-white bg-orange-600 rounded-md hidden md:flex cursor-pointer" data-aos="zoom-in">
                         TRAKING
@@ -35,9 +35,9 @@ const Navbar = () => {
                         data-aos="fade-left"
                     >
                         {isOpen ? (
-                            <RxCross2 className="text-5xl text-orange-500" />
+                            <RxCross2 className="text-5xl text-orange-500 hover:text-[#252448]"/>
                         ) : (
-                            <IoMdMenu className="text-5xl text-orange-500" />
+                            <IoMdMenu className="text-5xl text-orange-500 hover:text-[#252448]" />
                         )}
                     </button>
                 </nav>
@@ -55,16 +55,16 @@ const Navbar = () => {
                     <li className="text-orange-600 active:text-orange-500 underline underline-offset-2 cursor-pointer">
                         <a href="#">HOME</a>
                     </li>
-                    <li className="text-indigo-900 cursor-pointer hover:underline underline-offset-2">
+                    <li className="text-[#252448] cursor-pointer hover:underline underline-offset-2">
                         <a href="#">ABOUT US</a>
                     </li>
-                    <li className="text-indigo-900 cursor-pointer hover:underline underline-offset-2">
+                    <li className="text-[#252448] cursor-pointer hover:underline underline-offset-2">
                         <a href="#">SERVICE</a>
                     </li>
-                    <li className="text-indigo-900 cursor-pointer hover:underline underline-offset-2">
+                    <li className="text-[#252448] cursor-pointer hover:underline underline-offset-2">
                         <a href="#">PAGES</a>
                     </li>
-                    <li className="text-indigo-900 cursor-pointer hover:underline underline-offset-2">
+                    <li className="text-[#252448] cursor-pointer hover:underline underline-offset-2">
                         <a href="#">CONTACT</a>
                     </li>
 
