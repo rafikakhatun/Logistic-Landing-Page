@@ -28,15 +28,15 @@ const Navbar = () => {
                     </ul>
 
                     {/* desktop traking button*/}
-                    <button className="px-6 py-2 text-white bg-orange-600 rounded-md hidden md:flex">TRAKING</button>
+                    <button className="px-6 py-2 text-white bg-orange-600 rounded-md hidden md:flex cursor-pointer">TRAKING</button>
                     {/*humbergur menu icon */}
-                    <button onClick={() => setIsOpen(!isOpen)} className="flex md:hidden">
+                    <button onClick={() => setIsOpen(!isOpen)} className="flex md:hidden cursor-pointer">
                         {isOpen ? (<RxCross2 className="text-5xl text-orange-500" />) : (<IoMdMenu className="text-5xl text-orange-500" />)
                         }
 
                     </button>
                 </nav>
-                {/* mobiole menu*/}
+                {/* mobile menu*/}
                 <ul
                     className={`w-full h-screen flex flex-col justify-center items-center space-y-4 md:hidden absolute top-16 
     transition-all duration-500 ease-in-out
