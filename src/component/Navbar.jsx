@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <>
-            <header className="bg-white w-full shadow fixed" data-aos="fade-down">
+            <header className="bg-white w-full shadow fixed z-50 " data-aos="fade-down">
                 <nav className="py-2 px-4 flex justify-between items-center">
                     {/* logo */}
                     <img className="w-40 h-16" src={logo} alt="logo" data-aos="zoom-in" />

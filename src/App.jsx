@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './component/Navbar'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Hero from './component/Hero';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
     <>
     <Navbar></Navbar>
+    <Hero></Hero>
      
     </>
   )
