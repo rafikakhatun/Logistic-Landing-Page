@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css'
 import Navbar from './component/Navbar'
 import AOS from "aos";
