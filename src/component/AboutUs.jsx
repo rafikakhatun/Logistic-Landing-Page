@@ -68,18 +68,20 @@ const AboutUs = () => {
                     </div>
                 </div>
                 {/*end left side*/}
+
                 {/* Right Side */}
                 <div className="relative">
                     <img
                         src="src/assets/aboutUs.jpeg"
                         alt="Logistics Trucks"
-                        className="rounded-lg shadow-lg max-w-lg w-full"
+                        className="rounded-md shadow-lg max-w-lg w-full"
                     />
                     {/* Badge */}
-                    <div className="absolute top-4 right-4 bg-white shadow-md px-8 py-4 rounded-md">
-                        <span className="text-orange-500 font-bold text-lg">25</span>
-                        <span className="text-gray-700 text-sm block">
-                            Years Of Experience
+                    <div className="absolute top-4 right-4 flex justify-center items-center bg-white shadow-md px-8 py-4 rounded-md space-x-3 border border-gray-300">
+                        <span className="text-orange-500 font-bold text-3xl">25</span>
+                        <span className="w-px h-12 border bg-gray-600"></span>
+                        <span className="text-gray-600 text-xl">
+                            Years Of<br/> Experience
                         </span>
                     </div>
                 </div>
