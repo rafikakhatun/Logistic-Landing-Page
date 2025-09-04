@@ -29,7 +29,7 @@ const AboutUs = () => {
                         </p>
                     </div>
 
-                     {/* Button + Customers */}
+                    {/* Button + Customers */}
                     <div className="flex items-center gap-5">
                         <button className="bg-orange-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-orange-600 transition cursor-pointer">
                             Contact Us
@@ -66,9 +66,22 @@ const AboutUs = () => {
                             </span>
                         </div>
                     </div>
-
-
-
+                </div>
+                {/*end left side*/}
+                {/* Right Side */}
+                <div className="relative">
+                    <img
+                        src="src/assets/aboutUs.jpeg"
+                        alt="Logistics Trucks"
+                        className="rounded-lg shadow-lg max-w-lg w-full"
+                    />
+                    {/* Badge */}
+                    <div className="absolute top-4 right-4 bg-white shadow-md px-8 py-4 rounded-md">
+                        <span className="text-orange-500 font-bold text-lg">25</span>
+                        <span className="text-gray-700 text-sm block">
+                            Years Of Experience
+                        </span>
+                    </div>
                 </div>
 
 
