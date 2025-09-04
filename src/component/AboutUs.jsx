@@ -26,6 +26,39 @@ const AboutUs = () => {
                         </p>
                     </div>
 
+                     {/* Button + Customers */}
+                    <div className="flex items-center gap-5">
+                        <button className="bg-orange-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-orange-600 transition">
+                            Contact Us
+                        </button>
+
+                        <div className="flex items-center space-x-2">
+                            {/* Example Avatars */}
+                            <div className="flex -space-x-2">
+                                <img
+                                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                                    alt="user1"
+                                    className="w-8 h-8 rounded-full border-2 border-white"
+                                />
+                                <img
+                                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                                    alt="user2"
+                                    className="w-8 h-8 rounded-full border-2 border-white"
+                                />
+                                <img
+                                    src="https://randomuser.me/api/portraits/men/56.jpg"
+                                    alt="user3"
+                                    className="w-8 h-8 rounded-full border-2 border-white"
+                                />
+                            </div>
+                            <span className="text-gray-700 font-medium">
+                                60K+ <br />
+                                <span className="text-sm text-gray-500">Satisfied Customer</span>
+                            </span>
+                        </div>
+                    </div>
+
+
 
                 </div>
 
