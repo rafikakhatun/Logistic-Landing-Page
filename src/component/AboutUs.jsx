@@ -1,4 +1,7 @@
-
+import customer1 from "../assets/aboutUsCustomer1.jpeg"
+import customer2 from "../assets/aboutUsCustomer2.jpeg"
+import customer3 from "../assets/aboutUsCustomer3.jpeg"
+import customer4 from "../assets/aboutUsCustomer4.jpeg"
 
 const AboutUs = () => {
     return (
@@ -28,7 +31,7 @@ const AboutUs = () => {
 
                      {/* Button + Customers */}
                     <div className="flex items-center gap-5">
-                        <button className="bg-orange-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-orange-600 transition">
+                        <button className="bg-orange-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-orange-600 transition cursor-pointer">
                             Contact Us
                         </button>
 
@@ -36,17 +39,23 @@ const AboutUs = () => {
                             {/* Example Avatars */}
                             <div className="flex -space-x-2">
                                 <img
-                                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                                    src={customer3}
                                     alt="user1"
                                     className="w-8 h-8 rounded-full border-2 border-white"
                                 />
                                 <img
-                                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                                    src={customer4}
                                     alt="user2"
                                     className="w-8 h-8 rounded-full border-2 border-white"
                                 />
                                 <img
-                                    src="https://randomuser.me/api/portraits/men/56.jpg"
+                                    src={customer1}
+                                    alt="user3"
+                                    className="w-8 h-8 rounded-full border-2 border-white"
+                                />
+
+                                <img
+                                    src={customer2}
                                     alt="user3"
                                     className="w-8 h-8 rounded-full border-2 border-white"
                                 />
