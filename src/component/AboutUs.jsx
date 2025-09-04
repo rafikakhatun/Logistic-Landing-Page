@@ -9,7 +9,7 @@ const AboutUs = () => {
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
                 {/* Left Side */}
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1200">
                     <p className="text-orange-500 font-semibold mb-2 text-xl">About Us</p>
 
                     <h2 className="text-2xl md:text-4xl font-bold leading-snug tracking-wide mb-4">
@@ -70,14 +70,20 @@ const AboutUs = () => {
                 {/*end left side*/}
 
                 {/* Right Side */}
-                <div className="relative">
+                <div className="relative" data-aos="zoom-in" data-aos-duration="1500">
                     <img
                         src="src/assets/aboutUs.jpeg"
                         alt="Logistics Trucks"
                         className="rounded-md shadow-lg max-w-lg w-full"
+                        data-aos="zoom-in-up"
+                        data-aos-duration="1500"
                     />
                     {/* Badge */}
-                    <div className="absolute top-4 right-4 flex justify-center items-center bg-white shadow-md px-8 py-4 rounded-md space-x-3 border border-gray-300">
+                    <div 
+                        className="absolute top-4 right-4 flex justify-center items-center bg-white shadow-md px-8 py-4 rounded-md space-x-3 border border-gray-300"
+                        data-aos="fade-left"
+                        data-aos-duration="1500"
+                    >
                         <span className="text-orange-500 font-bold text-3xl">25</span>
                         <span className="w-px h-12 border bg-gray-600"></span>
                         <span className="text-gray-600 text-xl">
@@ -85,7 +91,6 @@ const AboutUs = () => {
                         </span>
                     </div>
                 </div>
-
 
             </div>
         </section>
