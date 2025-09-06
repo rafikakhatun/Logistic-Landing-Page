@@ -6,13 +6,13 @@ import customer4 from "../assets/aboutUsCustomer4.jpeg"
 const AboutUs = () => {
     return (
         <section className="py-18 mt-20 px-6 bg-white">
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10  items-center">
 
                 {/* Left Side */}
                 <div data-aos="fade-right" data-aos-duration="1200">
                     <p className="text-orange-500 font-semibold mb-2 text-xl">About Us</p>
 
-                    <h2 className="text-2xl md:text-4xl font-bold leading-snug tracking-wide mb-4">
+                    <h2 className="text-2xl text-[#242254] md:text-4xl font-bold leading-snug tracking-wide mb-4">
                         Delivering Reliable{" "} <br />
                         <span className="text-orange-500">Logistics Solutions Every </span><br />  Time
                     </h2>
