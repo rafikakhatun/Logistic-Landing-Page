@@ -1,6 +1,10 @@
 import { VscArrowRight } from "react-icons/vsc";
 import WhyChooseVideo from "../assets/ourServiceVideo.mp4"
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
+import roadServiceImage from "../assets/ourServiceImage1.jpeg"
+import airServiceImage from "../assets/ourServiceImage2.jpeg"
+import oceanServiceImage from "../assets/ourService3.jpeg"
+
 
 const WhyChooseUs = () => {
     return (
@@ -25,7 +29,7 @@ const WhyChooseUs = () => {
                     <div className="">
                         {/*Road service*/}
                         <div>
-                            <img src="" alt="" />
+                            <img className="w-40 h-25 rounded-md object-cover" src={roadServiceImage} alt="" />
                             <div>
                                 <h1>Road Freight Services</h1>
                                 <p>Our extensive network of shipping line and experience team ensure smooth</p>
@@ -33,11 +37,15 @@ const WhyChooseUs = () => {
                             <div>
                                 <VscArrowRight />
                             </div>
+                            {/* Divider line: separates sections */}
+                            <div className="border-b border-gray-300 my-4"></div>
+                            
+
                         </div>
 
                         {/*Air Service*/}
-                        <div>
-                            <img src="" alt="" />
+                        <div className="space-y-4">
+                            <img src={airServiceImage} alt="" />
                             <div>
                                 <h1>Air Freight Services</h1>
                                 <p>Our extensive network of shipping line and experience team ensure smooth</p>
@@ -45,11 +53,13 @@ const WhyChooseUs = () => {
                             <div>
                                 <VscArrowRight />
                             </div>
+                             {/* Divider line: separates sections */}
+                            <div className="border-b border-gray-300 my-4"></div>
                         </div>
 
                         {/*Ocean Service*/}
                         <div>
-                            <img src="" alt="" />
+                            <img src={oceanServiceImage} alt="" />
                             <div>
                                 <h1>Ocean Freight Services</h1>
                                 <p>Our extensive network of shipping line and experience team ensure smooth</p>
@@ -57,6 +67,8 @@ const WhyChooseUs = () => {
                             <div>
                                 <VscArrowRight />
                             </div>
+                             {/* Divider line: separates sections */}
+                            <div className="border-b border-gray-300 my-4"></div>
                         </div>
 
                     </div>
