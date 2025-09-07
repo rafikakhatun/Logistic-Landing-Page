@@ -12,27 +12,27 @@ import WhyChooseUs from './component/WhyChooseUs';
 
 function App() {
 
-   useEffect(() => {
+  useEffect(() => {
     AOS.init({
       duration: 1000, // animation duration
       offset: 100, // scroll offset
       once: true,  // animation only once
     });
   }, []);
-  
+
   return (
 
-    
-   
+
+
 
 
     <>
-    <Navbar></Navbar>
-    <Hero></Hero>
-    <AboutUs></AboutUs>
-    <OurService></OurService>
-    <WhyChooseUs></WhyChooseUs>
-     
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <AboutUs></AboutUs>
+      <WhyChooseUs></WhyChooseUs>
+      <OurService></OurService>
+
     </>
   )
 }
