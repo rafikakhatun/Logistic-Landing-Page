@@ -35,8 +35,10 @@ const OurService = () => {
                     <div className="space-y-10 h-full" data-aos="fade-left">
                         {/*Road service*/}
                         <div className="flex flex-col md:flex-row gap-4 items-start md:items-center" data-aos="fade-up">
-                            <img className=" w-full h-full md:w-50 md:h-35 rounded-md object-cover transition-transform duration-300 ease-in-out 
-             hover:scale-105 shadow-md" src={roadServiceImage} alt="" data-aos="zoom-in" />
+                            <div className="transition-transform duration-300 ease-in-out 
+                             hover:scale-110 shadow-md w-full md:w-2/3 rounded-md">
+                                <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover shadow-md" src={roadServiceImage} alt="" data-aos="zoom-in" />
+                            </div>
                             <div className="flex flex-col" data-aos="fade-left">
                                 <h1 className="text-lg text-[#242254] font-semibold tracking-wide" data-aos="fade-up">Road Freight Services</h1>
                                 <p className="text-sm text-gray-700 tracking-wide" data-aos="fade-up" data-aos-delay="100">Our extensive network of shipping line and experience team ensure smooth.....</p>
@@ -50,7 +52,10 @@ const OurService = () => {
 
                         {/*Air Service*/}
                         <div className="flex flex-col md:flex-row gap-4 items-start md:items-center mt-4" data-aos="fade-up">
-                            <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover" src={airServiceImage} alt="" data-aos="zoom-in" />
+                            <div className="transition-transform duration-300 ease-in-out 
+                              hover:scale-110 shadow-md w-full md:w-2/3 rounded-md">
+                                <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover" src={airServiceImage} alt="" data-aos="zoom-in" />
+                            </div>
                             <div data-aos="fade-left">
                                 <h1 className="text-lg text-[#242254] font-semibold tracking-wide" data-aos="fade-up">Air Freight Services</h1>
                                 <p className="text-sm text-gray-700 tracking-wide" data-aos="fade-up" data-aos-delay="100">Our extensive network of shipping line and experience team ensure smooth.....</p>
@@ -64,7 +69,10 @@ const OurService = () => {
 
                         {/*Ocean Service*/}
                         <div className="flex flex-col md:flex-row gap-4 items-start md:items-center mt-4" data-aos="fade-up">
-                            <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover" src={oceanServiceImage} alt="" data-aos="zoom-in" />
+                            <div className="transition-transform duration-300 ease-in-out 
+                               hover:scale-110 shadow-md w-full md:w-2/3 rounded-md">
+                                <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover" src={oceanServiceImage} alt="" data-aos="zoom-in" />
+                            </div>
                             <div data-aos="fade-left">
                                 <h1 className="text-lg text-[#242254] font-semibold tracking-wide" data-aos="fade-up">Ocean Freight Services</h1>
                                 <p className="text-sm text-gray-700 tracking-wide" data-aos="fade-up" data-aos-delay="100">Our extensive network of shipping line and experience team ensure smooth.....</p>
