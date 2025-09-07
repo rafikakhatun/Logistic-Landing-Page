@@ -10,12 +10,12 @@ const WhyChooseUs = () => {
                 {/*main container */}
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center">
                     {/* left section */}
-                    <div className="h-full w-full hover:transition-transform duration-300 ease-in-out hover:scale-105" >
-                        <img className="w-full h-72 md:w-2/3 md:h-full object-center rounded-lg shadow-md" src={leftSectionImage} alt="logisticImage" data-aos="fade-right"/>
+                    <div className="h-auto w-full hover:transition-transform duration-300 ease-in-out hover:scale-105">
+                        <img className="w-full h-full md:w-4/5 md:h-full object-center rounded-lg shadow-md" src={leftSectionImage} alt="logisticImage" data-aos="fade-right"/>
                     </div>
 
                     {/*right section */}
-                    <div className="h-full space-y-8" data-aos="fade-left">
+                    <div className="h-auto space-y-6" data-aos="fade-left">
                         <h2 className="text-xl text-center md:text-left text-orange-500 font-semibold" data-aos="fade-down">Why Choose Us</h2>
                         <h1 className="text-2xl text-center md:text-left text-[#242254] md:text-4xl font-bold leading-snug tracking-wide" data-aos="fade-up">Empowering Your <span className="text-orange-500">Business </span>Potential</h1>
                         <p className="text-center md:text-left text-gray-700" data-aos="fade-up" data-aos-delay="100">We understand that selecting the right logistic partner is crucial for the success of your business.</p>
