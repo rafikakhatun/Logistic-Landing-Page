@@ -5,7 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from './component/Hero';
 import AboutUs from './component/AboutUs';
-import WhyChooseUs from './component/WhyChooseUs';
+import OurService from './component/OurService';
+
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
     <Navbar></Navbar>
     <Hero></Hero>
     <AboutUs></AboutUs>
-    <WhyChooseUs></WhyChooseUs>
+    <OurService></OurService>
      
     </>
   )
