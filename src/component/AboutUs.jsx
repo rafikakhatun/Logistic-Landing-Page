@@ -71,13 +71,16 @@ const AboutUs = () => {
 
                 {/* Right Side */}
                 <div className="relative" data-aos="zoom-in" data-aos-duration="1500">
+                    <div className="transition-transform duration-300 ease-in-out 
+             hover:scale-105 shadow-md w-full rounded-md">
                     <img
                         src="src/assets/aboutUs.jpeg"
                         alt="Logistics Trucks"
-                        className="rounded-md shadow-lg max-w-lg w-full"
+                        className="rounded-md shadow-lg  w-full"
                         data-aos="zoom-in-up"
                         data-aos-duration="1500"
                     />
+                    </div>
                     {/* Badge */}
                     <div 
                         className="absolute top-4 right-4 flex justify-center items-center bg-white shadow-md px-8 py-4 rounded-md space-x-3 border border-gray-300"
