@@ -9,7 +9,7 @@ import oceanServiceImage from "../assets/ourService3.jpeg"
 const OurService = () => {
     return (
         <>
-            <section className="w-full py-10 px-6 bg-white" data-aos="fade-up">
+            <section className="w-full py-16 px-6 bg-white" data-aos="fade-up">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 items-center" data-aos="fade-up">
 
                     {/*left section */}
@@ -20,7 +20,7 @@ const OurService = () => {
                         <p className="text-xl md:text-4xl lg:text-4xl font-semibold text-[#242254] text-center md:text-left leading-snug" data-aos="fade-up">
                             Your <span className="text-orange-600">Gateway </span> to <br className="hidden md:block" /> Seamless <br className="hidden md:block" /> Transportation
                         </p>
-                        <p className="text-gray-600 text-sm md:text-lg text-center md:text-left tracking-normal" data-aos="fade-up" data-aos-delay="100">
+                        <p className="text-gray-600 text-md text-center md:text-left tracking-normal" data-aos="fade-up" data-aos-delay="100">
                             Whether you're a small business or a multination <br className="hidden md:block" /> corporation, Logintic is your trusted partner for all your <br className="hidden md:block" /> transportation and logistics needs
                         </p>
                         <div className="relative" data-aos="zoom-in">

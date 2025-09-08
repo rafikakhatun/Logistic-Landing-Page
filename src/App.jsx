@@ -7,6 +7,7 @@ import Hero from './component/Hero';
 import AboutUs from './component/AboutUs';
 import OurService from './component/OurService';
 import WhyChooseUs from './component/WhyChooseUs';
+import LatestProject from './component/LatestProject';
 
 
 
@@ -32,6 +33,7 @@ function App() {
       <AboutUs></AboutUs>
       <WhyChooseUs></WhyChooseUs>
       <OurService></OurService>
+      <LatestProject></LatestProject>
 
     </>
   )
