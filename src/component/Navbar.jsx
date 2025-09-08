@@ -24,7 +24,7 @@ const Navbar = () => {
                     </ul>
  
                     {/* desktop traking button*/}
-                    <button className="px-6 py-2 text-white bg-orange-600 rounded-md hidden md:flex cursor-pointer" data-aos="zoom-in">
+                    <button className="px-6 py-2 text-white bg-orange-600 hover:bg-white hover:text-orange-500 hover:border-2 border-transparent hover:border-orange-500 transition-all duration-300 ease-in-out rounded-md hidden md:flex cursor-pointer" data-aos="zoom-in">
                         TRAKING
                     </button>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
 
                     {/* mobile traking button*/}
                     <button 
-                        className="px-6 py-2 text-white bg-orange-600 hover:bg-orange-500 cursor-pointer rounded-md flex md:hidden"
+                        className="px-6 py-2 text-white bg-orange-600 hover:bg-white  hover:text-orange-500 hover:border-2 border-transparent hover:border-orange-500 cursor-pointer transition-all duration-300 ease-in-out rounded-md flex md:hidden"
                         data-aos="zoom-in"
                     >
                         TRAKING
