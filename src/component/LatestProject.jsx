@@ -59,6 +59,10 @@ const LatestProject = () => {
                     </div>
 
                 </div>
+                {/*view all project button*/}
+                <div className="flex justify-center mt-10">
+                    <button className="px-6 py-3 rounded-md text-white bg-orange-500">View All Projecct</button>
+                </div>
             </section>
 
         </>
