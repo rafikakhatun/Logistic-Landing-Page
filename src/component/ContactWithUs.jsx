@@ -20,7 +20,7 @@ const ContactWithUs = () => {
                 <div className="absolute inset-0 z-10 flex flex-col md:flex-row justify-center md:justify-around items-center gap-5 md:gap-0 mr-8 md:mr-0">
                     <h1 className="text-xl md:text-4xl font-semibold text-white" data-aos="fade-left"
                         data-aos-duration="1000">Delivering <span className="text-orange-500">Excellence</span> Your <br/> Premier Transport Agency</h1>
-                    <button className="px-6 py-3 rounded-md bg-orange-500 text-white hover:text-orange-600 hover:bg-white hover:border-2 hover:border-orange-600 cursor-pointer" data-aos="fade-right"
+                    <button className="px-6 py-3 rounded-md bg-orange-600 text-white hover:text-orange-600 hover:bg-white hover:border-2 hover:border-orange-600 cursor-pointer" data-aos="fade-right"
                         data-aos-duration="1000">Contact With Us</button>
                 </div>
 
