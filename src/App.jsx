@@ -9,6 +9,7 @@ import OurService from './component/OurService';
 import WhyChooseUs from './component/WhyChooseUs';
 import LatestProject from './component/LatestProject';
 import ContactWithUs from './component/ContactWithUs';
+import Ourteam from './component/Ourteam';
 
 
 
@@ -36,6 +37,7 @@ function App() {
       <OurService></OurService>
       <LatestProject></LatestProject>
       <ContactWithUs></ContactWithUs>
+      <Ourteam></Ourteam>
 
     </>
   )
