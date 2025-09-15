@@ -57,15 +57,22 @@ const Ourteam = () => {
                 <div className="hover:transition-transform duration-300 ease-in-out hover:scale-110">
                     <img className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg" src={OurTeamImg6} alt="image" />
                 </div>
-
-                {/*image 6*/}
-                <div className="relative hover:transition-transform duration-300 ease-in-out hover:scale-110">
-                    <img className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg md:mr-10" src={OurTeamImg4} alt="image" />
-                    <div className="absolute inset-o bg-black/90">
-                    jhbkjdsbhkjmsbdvc kjhb
-
+                {/* image 6 */}
+                <div className="relative w-fit h-fit hover:transition-transform duration-300 ease-in-out hover:scale-110 md:mr-10">
+                    <img
+                        className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg"
+                        src={OurTeamImg4}
+                        alt="image"
+                    />
+                    {/*overlay div*/}
+                    <div className="absolute inset-0 bg-blue-900/40 text-white rounded-lg flex flex-col items-center justify-center space-y-3">
+                        <h1 className="text-2xl md:text-5xl font-semibold">300+</h1>
+                        <p className="text-center leading-snug font-semibold">Creative team member in<br className="hidden md:block"/> logistic Company</p>
+                        <button className="px-6 py-2 text-white rounded-lg bg-orange-500 cursor-pointer hover:bg-orange-600">Join Our Team</button>
+ 
                     </div>
                 </div>
+
             </div>
 
 
