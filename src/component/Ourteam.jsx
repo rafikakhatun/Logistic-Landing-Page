@@ -11,6 +11,7 @@ const Ourteam = () => {
         <section className="w-full bg-white py-16 px-6">
             {/*heading content */}
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between px-6 py-4">
+                {/*left heading*/}
                 <div className="space-y-2 md:ml-5">
                     <h2 className="text-orange-500 font-semibold mb-2 text-xl text-center md:text-left" data-aos="fade-down"
                         data-aos-delay="100">Our Team</h2>
@@ -18,6 +19,7 @@ const Ourteam = () => {
                         data-aos-delay="100">Meet Our <span className="text-[#242254]">Dedicated</span><br className="hidden md:block" /> Team</h1>
 
                 </div>
+                {/*right heading*/}
                 <div className="md:mr-6">
                     <p className="text-sm md:text-base text-center md:text-right text-gray-600 mt-4 md:mt-0" data-aos="fade-down"
                         data-aos-delay="100">
