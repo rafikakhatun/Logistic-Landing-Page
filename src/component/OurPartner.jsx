@@ -15,32 +15,32 @@ const OurPartner = () => {
         {/*Logo ssection*/}
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-evenly gap-6 place-items-center mt-14">
             {/* Logo 1 */}
-            <div className="w-54 md:w-70 h-36 border border-gray-400 flex justify-center items-center rounded-lg shadow-lg">
+            <div className="w-54 md:w-70 h-36 border border-gray-300 flex justify-center items-center rounded-lg shadow-lg">
                 <img className="w-50 h-50" src={GigaByteLogo} alt="Logo" />
             </div>
 
             {/* Logo 2 */}
-            <div className="w-54  md:w-70 h-36 border border-gray-400 flex justify-center items-center rounded-lg shadow-lg">
+            <div className="w-54  md:w-70 h-36 border border-gray-300 flex justify-center items-center rounded-lg shadow-lg">
                 <img  className="w-50 h-30" src={TexasLogo} alt="Logo" />
             </div>
 
             {/* Logo 3 */}
-            <div className="w-54 md:w-70 h-36 border border-gray-400 flex justify-center items-center rounded-lg shadow-lg">
+            <div className="w-54 md:w-70 h-36 border border-gray-300 flex justify-center items-center rounded-lg shadow-lg">
                 <img  className="w-50 h-30" src={TangemLogo} alt="Logo" />
             </div>
 
             {/* Logo 4 */}
-            <div className="w-54 md:w-70 h-36 border border-gray-400 flex justify-center items-center rounded-lg shadow-lg">
+            <div className="w-54 md:w-70 h-36 border border-gray-300 flex justify-center items-center rounded-lg shadow-lg">
                 <img  className="w-50 h-50" src={SfExpressLogo} alt="Logo" />
             </div>
 
             {/* Logo 5 */}
-            <div className="w-54 md:w-70 h-36 border border-gray-400 flex justify-center items-center rounded-lg shadow-lg">
+            <div className="w-54 md:w-70 h-36 border border-gray-300 flex justify-center items-center rounded-lg shadow-lg">
                 <img  className="w-50 h-30" src={AmazonLogo} alt="Logo" />
             </div>
 
             {/* Logo 6 */}
-            <div className="w-54 md:w-70 h-36 border border-gray-400 flex justify-center items-center rounded-lg shadow-lg">
+            <div className="w-54 md:w-70 h-36 border border-gray-300 flex justify-center items-center rounded-lg shadow-lg">
                 <img  className="w-50 h-30" src={GopassLogo} alt="Logo" />
             </div>
         </div>
