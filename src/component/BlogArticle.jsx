@@ -29,7 +29,7 @@ const BlogArticle = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 place-items-center mt-20">
                     {/*Blog 1*/}
                     <div className="w-80 shadow-lg rounded-md">
-                        <img className="w-full h-64 object-cover rounded-t-md" src={BlogImg1} alt="BlogImg1" />
+                        <img className="w-full h-64 object-cover rounded-t-md hover:transition-transform duration-300 ease-in hover:scale-75 cursor-pointer" src={BlogImg1} alt="BlogImg1" />
                         <div className="px-4 py-6 space-y-2">
                             <p className="text-gray-600">by Admin | 10 May 2025 | Logistic</p>
                             <h1 className="text-[#242254] text-lg md:text-xl font-bold">Optimizing Supply Chain <br className="hidden md:block" />Efficiency</h1>
@@ -39,7 +39,7 @@ const BlogArticle = () => {
 
                     {/*Blog 2*/}
                     <div className="w-80 shadow-lg rounded-md">
-                        <img className="w-full h-64 object-cover rounded-t-md" src={BlogImg2} alt="BlogImg1" />
+                        <img className="w-full h-64 object-cover rounded-t-md hover:transition-transform duration-300 ease-in hover:scale-75 cursor-pointer" src={BlogImg2} alt="BlogImg1" />
                         <div className="px-4 py-6 space-y-2">
                             <p className="text-gray-600">by Admin | 24 Feb 2025 | Transport</p>
                             <h1 className="text-[#242254] text-lg md:text-xl font-bold">navigating <br className="hidden md:block" />International customer</h1>
@@ -50,7 +50,7 @@ const BlogArticle = () => {
 
                     {/*Blog 3*/}
                     <div className="w-80 shadow-lg rounded-md">
-                        <img className="w-full h-64 object-cover rounded-t-md" src={BlogImg3} alt="BlogImg1" />
+                        <img className="w-full h-64 object-cover rounded-t-md hover:transition-transform duration-300 ease-in hover:scale-75 cursor-pointer" src={BlogImg3} alt="BlogImg1" />
                         <div className="px-4 py-6 space-y-2">
                             <p className="text-gray-600">by Admin | 10 Jan 2025 | Warehouse</p>
                             <h1 className="text-[#242254] text-lg md:text-xl font-bold">Sustainable Logistic Building <br className="hidden md:block" /> a Greener</h1>
