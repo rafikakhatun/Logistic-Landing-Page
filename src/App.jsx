@@ -11,6 +11,7 @@ import LatestProject from './component/LatestProject';
 import ContactWithUs from './component/ContactWithUs';
 import Ourteam from './component/Ourteam';
 import OurPartner from './component/OurPartner';
+import BlogArticle from './component/BlogArticle';
 
 
 
@@ -40,6 +41,7 @@ function App() {
       <ContactWithUs></ContactWithUs>
       <Ourteam></Ourteam>
       <OurPartner></OurPartner>
+      <BlogArticle></BlogArticle>
 
     </>
   )
