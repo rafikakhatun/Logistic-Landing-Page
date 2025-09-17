@@ -16,26 +16,26 @@ const LatestProject = () => {
 
                 <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 place-items-center gap-4 mt-10 mr-0 md:mr-18">
                     {/*latestProject Imgae 1*/}
-                    <div className="transition-transform duration-300 ease-in-out hover:scale-110">
+                    <div className="transition-transform duration-300 ease-in hover:scale-90">
                         <img className="w-50 h-50 md:w-[430px] md:h-72 rounded-lg object-cover ml-0 md:ml-18" data-aos="zoom-in" data-aos-delay="200" src={latestProjectImg1} alt="latestProjectImgae" />
                     </div>
                     {/*latestProject Imgae 2*/}
-                    <div className="transition-transform duration-300 ease-in-out hover:scale-110">
+                    <div className="transition-transform duration-300 ease-in hover:scale-90">
                         <img className="w-50 h-50 md:w-80 md:h-72 rounded-lg object-cover mr-0 md:ml-22" data-aos="zoom-in" data-aos-delay="200" src={latestProjectImg2} alt="latestProjectImgae" />
                     </div>
 
                     {/*latestProject Imgae 3*/}
-                    <div className="transition-transform duration-300 ease-in-out hover:scale-110">
+                    <div className="transition-transform duration-300 ease-in hover:scale-90">
                         <img className="w-50 h-50 md:w-80 md:h-72 rounded-lg object-cover ml-0 md:ml-12" data-aos="zoom-in" data-aos-delay="200" src={latestProjectImg3} alt="latestProjectImgae" />
                     </div>
 
                     {/*latestProject Imgae 4*/}
-                    <div className="transition-transform duration-300 ease-in-out hover:scale-110">
+                    <div className="transition-transform duration-300 ease-in hover:scale-90">
                         <img className="w-50 h-50 md:w-80 md:h-72 rounded-lg object-cover ml-0 md:ml-18" data-aos="zoom-in" data-aos-delay="200" src={latestProjectImg4} alt="latestProjectImgae" />
                     </div>
 
                     {/*latestProject Imgae 5*/}
-                    <div className="relative transition-transform duration-300 ease-in-out hover:scale-110">
+                    <div className="relative transition-transform duration-300 ease-in hover:scale-90">
                         <img className="w-50 h-50 md:w-80 md:h-72 rounded-lg object-cover ml-0 md:ml-10" data-aos="zoom-in" data-aos-delay="200" src={latestProjectImg5} alt="latestProjectImgae" />
                         {/* Badge */}
                         <div className="bg-white absolute bottom-4 left-1/2 md:left-50 -translate-x-1/2 w-2/3 mx-auto p-4 rounded-lg shadow-md flex flex-col" data-aos="zoom-in" data-aos-delay="200">
@@ -54,7 +54,7 @@ const LatestProject = () => {
                     </div>
 
                     {/*latestProject Imgae 6*/}
-                    <div className="transition-transform duration-300 ease-in-out hover:scale-110">
+                    <div className="transition-transform duration-300 ease-in hover:scale-90">
                         <img className="w-50 h-50 md:w-[440px] md:h-72 rounded-lg object-cover mr-0 md:mr-6" data-aos="zoom-in" data-aos-delay="200" src={latestProjectImg6} alt="latestProjectImgae" />
                     </div>
 
