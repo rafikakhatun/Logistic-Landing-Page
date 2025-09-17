@@ -16,22 +16,22 @@ const Testimonial = () => {
                     {/*container*/}
                     <div className="flex flex-col md:flex-row gap-8 items-center mt-14 ">
                         {/*left content*/}
-                        <div className="flex-1">
-                            <div className="max-w-sm md:w-full h-auto">
-                                <img className="w-full h-full rounded-lg object-cover shadow-lg" src={testimonialImg} alt="testimonialImg" />
+                        <div className="flex-1 w-full">
+                            <div className="w-full ">
+                                <img className="w-full h-full rounded-lg object-cover shadow-lg hover:transition-transform duration-300 ease-in hover:scale-90" src={testimonialImg} alt="testimonialImg" />
 
                             </div>
                         </div>
 
 
                         {/* right content*/}
-                        <div className="flex-1 space-y-4">
+                        <div className="flex-1 space-y-4 w-full">
                             <div className="flex justify-between items-center">
                                 <div className="flex gap-2 items-center">
                                     <img className="w-14 h-14 object-cover rounded-full" src={TestimonialPerson} alt="TestimonialPerson" />
                                     <div className="flex flex-col">
-                                        <span className="text-sm text-gray-700">David malan</span>
-                                        <span className="text-sm text-gray-700">Marketing Manager</span>
+                                        <span className="text-xs md:text-sm text-gray-700">David malan</span>
+                                        <span className="md:text-sm text-sm text-gray-700">Marketing Manager</span>
                                     </div>
                                 </div>
                                 <div className="flex text-amber-400 text-sm">
@@ -43,7 +43,7 @@ const Testimonial = () => {
                                 </div>
 
                             </div>
-                            <p className="text-left text-gray-700 leading-relaxed ">
+                            <p className="text-left text-sm md:text-base text-gray-700 leading-relaxed ">
                                 "Fast, reliable, and affordable logistics partner.
                                 They handled my bulk orders very efficiently with proper care and attention.
                                  Their customer support is very responsive, and real-time tracking keeps me tension-free.
