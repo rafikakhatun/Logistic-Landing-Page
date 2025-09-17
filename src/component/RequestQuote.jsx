@@ -15,14 +15,15 @@ const RequestQuote = () => {
         </div>
 
         {/* Right Form */}
-        <div className="p-8 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+        <div className="p-10 flex flex-col justify-center ">
+          <h2 className="text-2xl font-bold text-[#242254] mb-6">
             Request Quote
           </h2>
           
-          <form className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <form className="grid grid-cols-1 sm:grid-cols-2 space-y-2 md:space-y-6 gap-4">
             
             {/* Name */}
+            
             <input 
               type="text" 
               placeholder="Name *"
