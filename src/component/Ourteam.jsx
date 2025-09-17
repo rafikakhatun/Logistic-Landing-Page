@@ -32,7 +32,7 @@ const Ourteam = () => {
             {/*image section*/}
             <div className='max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 place-items-center gap-6 mt-4'>
                 {/*image 1*/}
-                <div className="relative hover:transition-transform duration-300 ease-in-out hover:scale-110">
+                <div className="relative hover:transition-transform duration-300 ease-in hover:scale-90">
                     <img className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg md:ml-10 shadow-lg" src={OurTeamImg1} alt="image" data-aos="fade-up" data-aos-delay="100" />
                     {/*Badge*/}
                     <div className="absolute bottom-6 flex flex-col bg-white ml-3 p-4 md:ml-26 rounded-md" data-aos="fade-up" data-aos-delay="100">
@@ -44,26 +44,26 @@ const Ourteam = () => {
                 </div>
 
                 {/*image 2*/}
-                <div className="hover:transition-transform duration-300 ease-in-out hover:scale-110">
+                <div className="hover:transition-transform duration-300 ease-in hover:scale-90">
                     <img className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg" src={OurTeamImg3} alt="image" data-aos="fade-up" data-aos-delay="100" />
                 </div>
 
                 {/*image 3*/}
-                <div className="hover:transition-transform duration-300 ease-in-out hover:scale-110">
+                <div className="hover:transition-transform duration-300 ease-in hover:scale-90">
                     <img className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg md:mr-10" src={OurTeamImg2} alt="image" data-aos="fade-up" data-aos-delay="100" />
                 </div>
 
                 {/*image 4*/}
-                <div className="hover:transition-transform duration-300 ease-in-out hover:scale-110">
+                <div className="hover:transition-transform duration-300 ease-in hover:scale-90">
                     <img className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg md:ml-10" src={OurTeamImg5} alt="image" data-aos="fade-up" data-aos-delay="100" />
                 </div>
 
                 {/*image 5*/}
-                <div className="hover:transition-transform duration-300 ease-in-out hover:scale-110">
+                <div className="hover:transition-transform duration-300 ease-in hover:scale-90">
                     <img className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg" src={OurTeamImg6} alt="image" data-aos="fade-up" data-aos-delay="100" />
                 </div>
                 {/* image 6 */}
-                <div className="relative w-fit h-fit hover:transition-transform duration-300 ease-in-out hover:scale-110 md:mr-10">
+                <div className="relative w-fit h-fit hover:transition-transform duration-300 ease-in hover:scale-90 md:mr-10">
                     <img
                         className="w-60 h-72 md:w-80 md:h-96 object-cover rounded-lg"
                         src={OurTeamImg4}
