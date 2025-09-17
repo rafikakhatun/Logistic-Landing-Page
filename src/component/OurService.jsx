@@ -35,8 +35,8 @@ const OurService = () => {
                     <div className="space-y-10 h-full" data-aos="fade-left">
                         {/*Road service*/}
                         <div className="flex flex-col md:flex-row gap-4 items-start md:items-center" data-aos="fade-up">
-                            <div className="transition-transform duration-300 ease-in-out 
-                             hover:scale-110 shadow-md w-full md:w-2/3 rounded-md">
+                            <div className="transition-transform duration-300 ease-in
+                             hover:scale-90 shadow-md w-full md:w-2/3 rounded-md">
                                 <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover shadow-md" src={roadServiceImage} alt="" data-aos="zoom-in" />
                             </div>
                             <div className="flex flex-col" data-aos="fade-left">
@@ -52,8 +52,8 @@ const OurService = () => {
 
                         {/*Air Service*/}
                         <div className="flex flex-col md:flex-row gap-4 items-start md:items-center mt-4" data-aos="fade-up">
-                            <div className="transition-transform duration-300 ease-in-out 
-                              hover:scale-110 shadow-md w-full md:w-2/3 rounded-md">
+                            <div className="transition-transform duration-300 ease-in 
+                              hover:scale-90 shadow-md w-full md:w-2/3 rounded-md">
                                 <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover" src={airServiceImage} alt="" data-aos="zoom-in" />
                             </div>
                             <div data-aos="fade-left">
@@ -69,8 +69,8 @@ const OurService = () => {
 
                         {/*Ocean Service*/}
                         <div className="flex flex-col md:flex-row gap-4 items-start md:items-center mt-4" data-aos="fade-up">
-                            <div className="transition-transform duration-300 ease-in-out 
-                               hover:scale-110 shadow-md w-full md:w-2/3 rounded-md">
+                            <div className="transition-transform duration-300 ease-in 
+                               hover:scale-90 shadow-md w-full md:w-2/3 rounded-md">
                                 <img className="w-full h-full md:w-50 md:h-35 rounded-md object-cover" src={oceanServiceImage} alt="" data-aos="zoom-in" />
                             </div>
                             <div data-aos="fade-left">
