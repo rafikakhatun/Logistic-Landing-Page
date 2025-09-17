@@ -10,7 +10,7 @@ const RequestQuote = () => {
           <img 
             src={requestQuoteImg} 
             alt="Workers" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:transition-all duration-300 ease-in hover:scale-90 hover:rounded-full"
           />
         </div>
 
@@ -25,20 +25,20 @@ const RequestQuote = () => {
             {/* Name */}
             
             <input 
-              type="text" 
+              type="text" required
               placeholder="Name *"
-              className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
+              className="border border-gray-300  rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
             
             {/* Email */}
             <input 
-              type="email" 
+              type="email" required
               placeholder="Email *"
               className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
             
             {/* Freight Type */}
-            <select 
+            <select required
               className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
             >
               <option>Select Freight</option>
@@ -49,21 +49,21 @@ const RequestQuote = () => {
             
             {/* Distance */}
             <input 
-              type="text" 
+              type="text" required
               placeholder="Distance/Km *"
               className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
             
             {/* Weight */}
             <input 
-              type="text" 
+              type="text" required
               placeholder="Kilo *"
               className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
             
             {/* Height */}
             <input 
-              type="text" 
+              type="text" required
               placeholder="Centimeter *"
               className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
@@ -72,7 +72,7 @@ const RequestQuote = () => {
             <div className="sm:col-span-2">
               <button 
                 type="submit"
-                className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition"
+                className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition cursor-pointer"
               >
                 Submit Request
               </button>
