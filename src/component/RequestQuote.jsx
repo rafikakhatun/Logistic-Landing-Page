@@ -6,7 +6,7 @@ const RequestQuote = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
         
         {/* Left Image */}
-        <div className="h-full">
+        <div className="h-full" data-aos="fade-up">
           <img 
             src={requestQuoteImg} 
             alt="Workers" 
@@ -84,4 +84,4 @@ const RequestQuote = () => {
   );
 };
 
-export default RequestQuote;
+export default RequestQuote; 
