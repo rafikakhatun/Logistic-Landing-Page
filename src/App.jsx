@@ -13,6 +13,7 @@ import Ourteam from './component/Ourteam';
 import OurPartner from './component/OurPartner';
 import BlogArticle from './component/BlogArticle';
 import Testimonial from './component/Testimonial';
+import RequestQuote from './component/RequestQuote';
 
 
 
@@ -33,6 +34,7 @@ function App() {
 
 
     <>
+
       <Navbar></Navbar>
       <Hero></Hero>
       <AboutUs></AboutUs>
@@ -44,6 +46,7 @@ function App() {
       <OurPartner></OurPartner>
       <BlogArticle></BlogArticle>
       <Testimonial></Testimonial>
+      <RequestQuote></RequestQuote>
 
     </>
   )
