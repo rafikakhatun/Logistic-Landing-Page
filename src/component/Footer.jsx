@@ -16,24 +16,24 @@ const Footer = () => {
             </h2>
             <div className="space-y-4 text-sm">
               {/* Email Icon and Text */}
-              <div className="flex items-start">
-                <div className="bg-orange-accent p-2 rounded-full mr-3 mt-1">
+              <div className="flex items-center">
+                <div className="bg-orange-500 p-3 rounded-full mr-3 mt-1">
                   <FiMail className="h-4 w-4 text-white" />
                 </div>
                 <span>info@logistics.com</span>
               </div>
               
               {/* Location Icon and Text */}
-              <div className="flex items-start">
-                <div className="bg-orange-accent p-2 rounded-full mr-3 mt-1">
+              <div className="flex items-center">
+                <div className="bg-orange-500 p-3 rounded-full mr-3 mt-1">
                   <FiMapPin className="h-4 w-4 text-white" />
                 </div>
                 <span>265 New Ave, California City, 1001, USA</span>
               </div>
               
               {/* Phone Icon and Text */}
-              <div className="flex items-start">
-                <div className="bg-orange-accent p-2 rounded-full mr-3 mt-1">
+              <div className="flex items-center">
+                <div className="bg-orange-500 p-3 rounded-full mr-3 mt-1">
                   <FiPhone className="h-4 w-4 text-white" />
                 </div>
                 <span>(401) 233 53 567 89</span>
@@ -75,23 +75,23 @@ const Footer = () => {
                 placeholder="Email address" 
                 className="w-full p-3 rounded-l-lg focus:outline-none bg-white text-gray-700 placeholder-gray-400"
               />
-              <button className="bg-orange-accent p-3 rounded-r-lg hover:bg-orange-600 transition-colors">
+              <button className="bg-orange-500 p-3 rounded-r-lg hover:bg-orange-600 transition-colors">
                 <FiArrowRight className="h-6 w-6 text-white" />
               </button>
             </div>
             
             {/* Social Media Icons */}
             <div className="flex items-center space-x-4 pt-4">
-              <a href="#" className="bg-gray-700 p-2 rounded-full hover:bg-orange-accent transition-colors">
+              <a href="#" className="bg-orange-500 p-2 rounded-full hover:bg-orange-accent transition-colors">
                 <FaFacebookF className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-gray-700 p-2 rounded-full hover:bg-orange-accent transition-colors">
+              <a href="#" className="bg-orange-500 p-2 rounded-full hover:bg-orange-accent transition-colors">
                 <FaTwitter className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-gray-700 p-2 rounded-full hover:bg-orange-accent transition-colors">
+              <a href="#" className="bg-orange-500 p-2 rounded-full hover:bg-orange-accent transition-colors">
                 <FaLinkedinIn className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-gray-700 p-2 rounded-full hover:bg-orange-accent transition-colors">
+              <a href="#" className="bg-orange-500 p-2 rounded-full hover:bg-orange-accent transition-colors">
                 <FaInstagram className="h-5 w-5 text-white" />
               </a>
             </div>
