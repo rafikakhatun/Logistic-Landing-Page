@@ -14,6 +14,7 @@ import OurPartner from './component/OurPartner';
 import BlogArticle from './component/BlogArticle';
 import Testimonial from './component/Testimonial';
 import RequestQuote from './component/RequestQuote';
+import Footer from './component/Footer';
 
 
 
@@ -47,6 +48,7 @@ function App() {
       <BlogArticle></BlogArticle>
       <Testimonial></Testimonial>
       <RequestQuote></RequestQuote>
+      <Footer></Footer>
 
     </>
   )
