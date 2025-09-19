@@ -19,7 +19,7 @@ const Navbar = () => {
                         <li className="text-orange-600 active:text-orange-500 underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">HOME</a></li>
                         <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">ABOUT US</a></li>
                         <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">SERVICE</a></li>
-                        <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">PAGES</a></li>
+                        <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">TESTIMONIA</a></li>
                         <li className="text-[#252448] hover:underline underline-offset-2 cursor-pointer"  data-aos="fade-down"><a href="#">CONTACT</a></li>
                     </ul>
  
@@ -62,7 +62,7 @@ const Navbar = () => {
                         <a href="#">SERVICE</a>
                     </li>
                     <li className="text-[#252448] cursor-pointer hover:underline underline-offset-2">
-                        <a href="#">PAGES</a>
+                        <a href="#">TESTIMONIAL</a>
                     </li>
                     <li className="text-[#252448] cursor-pointer hover:underline underline-offset-2">
                         <a href="#">CONTACT</a>
